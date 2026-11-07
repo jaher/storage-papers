@@ -1,6 +1,6 @@
 # Storage Papers
 
-A living collection of data storage research papers, organized by topic: distributed filesystems, key-value stores and LSM-trees, consensus and replication, erasure coding, flash/NVMe, caching and tiering, cloud and disaggregated storage, storage engines, and persistent memory. Updated daily from the morning sweep — new papers land in the topic file that matches their primary angle, with the PDF in [`papers/`](papers/).
+A living collection of data storage research papers, organized by topic: distributed filesystems, key-value stores and LSM-trees, consensus and replication, erasure coding, flash/NVMe, caching and tiering, cloud and disaggregated storage, storage engines, persistent memory, and vector search indexes. Updated daily from the morning sweep — new papers land in the topic file that matches their primary angle, with the PDF in [`papers/`](papers/).
 
 ## Topics
 
@@ -12,6 +12,7 @@ A living collection of data storage research papers, organized by topic: distrib
 - [Caching, Tiering & Memory Hierarchy](topics/caching-tiering.md) — Caching and tiering: replacement policies, memcached at scale, hybrid DRAM/SSD caches, and burst buffers. (18 papers)
 - [Cloud, Block & Disaggregated Storage](topics/cloud-block-disaggregated.md) — Cloud and disaggregated storage: Azure Storage, RDMA far memory, CXL memory pooling, and serverless storage. (17 papers)
 - [Storage Engines, Indexing & Persistent Memory](topics/storage-engines-persistent-memory.md) — Storage engines and persistent memory: B-trees, latch-free indexes, PM filesystems, and near-data processing. (17 papers)
+- [Vector Search Indexes](topics/vector-search-indexes.md) — Graph and partition-based approximate nearest neighbor indexes and vector quantization: HNSW, DiskANN, Faiss, ScaNN, and the quantizers behind them. (14 papers)
 - [Recent Work 2023–2026](topics/recent-work.md) — Recent storage work (2023–2026) from arXiv and OSDI/SOSP/FAST/NSDI/ATC proceedings, newest first within each tier. (39 papers)
 
 ## Adding papers
@@ -30,5 +31,5 @@ Every paper carries an Importance score for a reader working through data storag
 
 ## Stats
 
-- 201 papers across 9 topics as of 2026-11-07
-- 41 PDFs in papers/ (arXiv papers only; venue papers link to their open-access source)
+- 229 papers across 10 topics as of 2026-11-07
+- 56 PDFs in papers/ (arXiv papers only; venue papers link to their open-access source)
