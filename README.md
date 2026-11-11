@@ -13,7 +13,7 @@ A living collection of data storage research papers, organized by topic: distrib
 - [Cloud, Block & Disaggregated Storage](topics/cloud-block-disaggregated.md) — Cloud and disaggregated storage: Azure Storage, RDMA far memory, CXL memory pooling, and serverless storage. (17 papers)
 - [Storage Engines, Indexing & Persistent Memory](topics/storage-engines-persistent-memory.md) — Storage engines and persistent memory: B-trees, latch-free indexes, PM filesystems, and near-data processing. (17 papers)
 - [Vector Search Indexes](topics/vector-search-indexes.md) — Graph and partition-based approximate nearest neighbor indexes and vector quantization: HNSW, DiskANN, Faiss, ScaNN, and the quantizers behind them. (14 papers)
-- [Recent Work 2023–2026](topics/recent-work.md) — Recent storage work (2023–2026) from arXiv and OSDI/SOSP/FAST/NSDI/ATC proceedings, newest first within each tier. (50 papers)
+- [Recent Work 2023–2026](topics/recent-work.md) — Recent storage work (2023–2026) from arXiv and OSDI/SOSP/FAST/NSDI/ATC proceedings, newest first within each tier. (54 papers)
 
 ## Adding papers
 
@@ -31,5 +31,5 @@ Every paper carries an Importance score for a reader working through data storag
 
 ## Stats
 
-- 240 papers across 10 topics as of 2026-11-10
-- 67 PDFs in papers/ (arXiv papers only; venue papers link to their open-access source)
+- 244 papers across 10 topics as of 2026-11-11
+- 71 PDFs in papers/ (arXiv papers only; venue papers link to their open-access source)
